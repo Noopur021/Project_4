@@ -315,15 +315,15 @@ height:600px;
 }
 .team-mem{
 height:480px;
-width:300px;
+width:280px;
 box-shadow: 10px 10px 8px rgb(78, 78, 78);
 position:relative;
-margin:25px;
+margin:20px;
 
 }
 .team-mem .image{
   height:400px;
-  width:300px;
+  width:280px;
  
 }
 
