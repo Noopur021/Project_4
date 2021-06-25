@@ -1,0 +1,78 @@
+.inputtext{
+    background-color: rgb(236, 236, 236);
+    color:rgba(0,0,0,0.4);
+    border-radius:5px;
+    height:50px;
+    width:200px;
+    display:block;
+    border:none;
+    margin:20px;
+}
+#message{
+    height:300px;
+    width:200px;
+}
+.form{
+  
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px black;
+    width:50%;
+    height:500px;
+    margin:150px 100px;background-color: #fff;
+    z-index: 100;
+    position:absolute;
+    text-align: center;
+}
+.form h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 30px;
+}
+button{
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+  .maps{
+      display:flex;
+      flex-wrap: wrap;
+      background-color: white;
+  }
+  .contacts{
+      background-color: #fff;
+      text-align: center;
+      height:300px;
+      width:40%;
+      margin:50px;
+      border-radius: 5px;
+
+  }
+  .contacts h1{
+      color:black;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+  }
+.contacts p{
+    margin:10px;
+    color:grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gmap{
+    margin:30px;
+
+}
+
+  @media only screen and(max-width:700px)
+  {
+      .form{
+          width:70%;
+          margin:20px 40px;
+      }
+.maps{
+    margin:0;
+}
+  }
